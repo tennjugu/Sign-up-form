@@ -47,6 +47,7 @@ h2{
 .form-body{
     height: 35vh;
     background: white;
+    box-shadow: 2px 4px  rgb(235, 231, 231);
 }
 
 .form-footer{
@@ -102,3 +103,36 @@ p>a{
     color: rgb(70, 29, 231);
     text-decoration: none;
 }
+
+.photo-credit, 
+.photo-credit a{
+    font-size: small;
+    color: white;
+    text-align: center;
+    gap: 3px;
+}
+
+.photo-credit{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.logo{
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo-background{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.3);
+    color: white;
+    font-family: Norse-Bold sans-serif;
+    font-size: 1.5em;
+} 
