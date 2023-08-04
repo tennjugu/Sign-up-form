@@ -71,12 +71,13 @@ h2{
 
 input{
     width: 250px;
-    height: 17px;
+    height: 25px;
     border: 1px solid #E5E7EB;
     border-radius: 5px;
 }
 
 input:focus{
+    outline: none;
     border: 1px solid rgb(12, 12, 234);
 }
 
