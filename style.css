@@ -1,9 +1,10 @@
 @font-face {
     font-family: Norse-Bold;
-    src: url(../font/Norse-Bold.otf);
+    src: url(./font/Norse-Bold.otf);
   }
 
 body {
+    font-family: sans-serif;
     padding: 0;
     margin: 0;
 } 
@@ -19,55 +20,47 @@ body {
     width: 35vw;
     background-repeat: no-repeat;
     background-size: cover;
+    /* font-family: Norse-Bold sans-serif; */
 }
 
-
-.form{
-    display: flex;
-    justify-content: center;
-    width: 50vw;
-}
-/* 
-.image{
-    background-image: url(img/marek.jpg);
-    background-position:center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    width: 40vw;
-
-} 
 
 .form{
     display: flex;
     flex-direction: column;
-    padding-left: 30px; 
-    padding: 0px;
+    width: 65vw;
+    background: rgb(250, 250, 250);
 }
 
 .form-header{
-    font-weight: bold;
-    background: gainsboro;
-    padding: 100px 120px 40px 30px;
-    line-height: 1.4em;
-}
-
-p{
-    padding-top: 20px;
-}
-
-h1{
-    padding-left: 40px;
-}
-.name,
-.contact,
-.password{
+    height: 30vh;
     display: flex;
-    margin-top: 1em;
-    gap:4em;
-    padding-left: 40px;
+    /* justify-content: flex-start; */
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom:5%;
 }
+
+h2{
+    margin-left: 51px;
+}
+.form-body{
+    height: 35vh;
+    background: white;
+}
+
 .form-footer{
-    padding-top: 2em;
-    padding-left: 40px;
+    height: 30vh;
 }
- */
+
+.info{
+    display: flex;
+    margin-left: 51px;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.personal-info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
