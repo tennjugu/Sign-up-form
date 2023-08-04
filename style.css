@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../font/Norse-Bold.otf);
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+} 
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image{
+    background-image: url(./img/marek.jpg);
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+/* 
+.image{
+    background-image: url(img/marek.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+
+} 
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px; 
+    padding: 0px;
+}
+
+.form-header{
+    font-weight: bold;
+    background: gainsboro;
+    padding: 100px 120px 40px 30px;
+    line-height: 1.4em;
+}
+
+p{
+    padding-top: 20px;
+}
+
+h1{
+    padding-left: 40px;
+}
+.name,
+.contact,
+.password{
+    display: flex;
+    margin-top: 1em;
+    gap:4em;
+    padding-left: 40px;
+}
+.form-footer{
+    padding-top: 2em;
+    padding-left: 40px;
+}
+ */
