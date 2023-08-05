@@ -24,8 +24,11 @@ This project is a signup form built using HTML and CSS. The form includes inputs
 - [The Odin Project](https://www.theodinproject.com/)
 
 **Note:** The Odin Project logo is used under fair use for educational purposes and is the property of The Odin Project.
+<br>
+<br>
 
 **Signup Form - Project Update**
+
 I want to provide you with an update regarding the current state of the signup form for my project. As of now, the signup form has been successfully implemented with basic fields for name, email, password, and confirm password. However, I regret to inform you that certain essential features, such as password validation and other properties, have not been included in the initial version.
  Although some key functionalities are missing at the moment, I am fully aware of their importance, and I intend to implement them in the near future.
 
